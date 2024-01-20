@@ -7,3 +7,4 @@ uvicorn
 pillow
 numpy
 pandas
+python-multipart
