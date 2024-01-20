@@ -1,10 +1,4 @@
 streamlit
 google-generativeai
 python-dotenv
-fastapi
 easyocr
-uvicorn
-pillow
-numpy
-pandas
-python-multipart

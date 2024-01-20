@@ -40,7 +40,8 @@ async def process_image(file: UploadFile = File(...)):
     extracted_text = extract_text_from_image(contents)
      
     prompt = """I'm going to give you a string which will contain some food items you have to recognise the food items and then 
-    return whether they are healthy or not. You must ignore if any description of any food item if given."""
+    return whether they are healthy or not. You must ignore if any description of any food item if given and output must not contain
+    any special symbol."""
 
     input = prompt + extracted_text
     # Classifying whether the food item is healthy or unhealthy
